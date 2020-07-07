@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="13" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="103" started-at="2020-07-07T22:45:43 IST" finished-at="2020-07-07T22:45:44 IST">
+    <groups>
+      <group name="reg">
+        <method signature="LoginTests.loginByFacebook()[pri:0, instance:BatchExecution.LoginTests@3b084709]" name="loginByFacebook" class="BatchExecution.LoginTests"/>
+      </group> <!-- reg -->
+    </groups>
+    <test name="Test" duration-ms="103" started-at="2020-07-07T22:45:43 IST" finished-at="2020-07-07T22:45:44 IST">
+      <class name="BatchExecution.LoginTests">
+        <test-method status="PASS" signature="loginByFacebook()[pri:0, instance:BatchExecution.LoginTests@3b084709]" name="loginByFacebook" duration-ms="19" started-at="2020-07-07T22:45:44 IST" finished-at="2020-07-07T22:45:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByFacebook -->
+      </class> <!-- BatchExecution.LoginTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

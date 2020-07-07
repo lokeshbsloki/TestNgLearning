@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Master test suite">
+   <suite-files>
+      <suite-file path="G:\MyJavaProject\TestNGLearning\src\test\java\BatchExecution\SanityTestSuite.xml"/>
+      <suite-file path="G:\MyJavaProject\TestNGLearning\src\test\java\BatchExecution\FunctionalTestSuite.xml"/>
+   </suite-files>
+
+</suite>

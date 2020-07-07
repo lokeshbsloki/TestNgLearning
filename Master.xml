@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+   <run>
+     <include name="reg"></include>
+   </run>
+  </groups>
+    <classes>
+      <class name="BatchExecution.paymentsTests"/>
+      <class name="BatchExecution.LoginTests"/>
+      <class name="BatchExecution.SignUptests"/>
+      <class name="parallelexecution.Parallel_test1"/>
+      <class name="parallelexecution.Parallel_test2"/>
+      <class name="BatchExecution.PaymentReturnTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
